@@ -1,4 +1,2 @@
-
-export const ExampleExport = () => {
-    return "ExampleExport function. Hopefully I am published"
-};
+export * from "./ButtonHelp";
+export * from "./OptionsMenu";

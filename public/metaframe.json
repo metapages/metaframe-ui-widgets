@@ -1,16 +1,10 @@
 {
 	"version": "0.3",
 	"metadata": {
-		"title": "metaframe-template"
+		"title": "UIComponents"
 	},
 	"inputs": {
-		"*": {
-			"type": "application/octet-stream:base64"
-		}
 	},
     "outputs": {
-		"*": {
-			"type": "application/octet-stream:base64"
-		}
 	}
 }
