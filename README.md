@@ -1,4 +1,4 @@
-# [Metaframe](https://metapages.org/) template
+# [Metaframe](https://metapages.org/): Useful widgets for common metaframe interactions
 
 Fast creation and deployment of advanced [metaframe](https://metapages.org/) websites.
 
