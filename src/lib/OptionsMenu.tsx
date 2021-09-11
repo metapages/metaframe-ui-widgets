@@ -155,6 +155,9 @@ const OptionsMenu: React.FC<{
 
   // preact complains in dev mode if this is moved out of a functional component
   useEffect(() => {
+    if (!isOpen) {
+      return;
+    }
     const onKeyup = (e: KeyboardEvent) => {
       if (e.key === "Enter" && isOpen) onCloseAndAccept();
     };
