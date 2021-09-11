@@ -1,11 +1,11 @@
 {
-  "name": "@metapages/metaframe-template-preact",
-  "version": "0.1.7",
+  "name": "@metapages/metaframe-ui-widgets",
+  "version": "0.2.5",
   "repository": {
     "type": "git",
-    "url": "https://github.com/metapages/metaframe-template-preact"
+    "url": "https://github.com/metapages/metaframe-ui-widgets"
   },
-  "homepage": "https://github.com/metapages/metaframe-template-preact/tree/main/docs#readme",
+  "homepage": "https://github.com/metapages/metaframe-ui-widgets/tree/main/docs#readme",
   "scripts": {
     "note": "echo 'use just. See README.md'"
   },
