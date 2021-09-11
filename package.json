@@ -10,7 +10,7 @@
   ],
   "type": "module",
   "types": "dist/index.d.ts",
-  "main": "dist/index.js",
+  "main": "dist/index.jsx",
   "homepage": "https://github.com/metapages/metaframe-ui-widgets/tree/main/docs#readme",
   "scripts": {
     "note": "echo 'use just. See README.md'"
