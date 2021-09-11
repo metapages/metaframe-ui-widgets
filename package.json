@@ -1,7 +1,7 @@
 {
   "name": "@metapages/metaframe-ui-widgets",
-  "version": "0.2.6",
-   "repository": {
+  "version": "0.2.7",
+  "repository": {
     "type": "git",
     "url": "https://github.com/metapages/metaframe-ui-widgets"
   },
