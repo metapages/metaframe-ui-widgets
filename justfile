@@ -221,6 +221,7 @@ _githubpages_publish: _ensureGitPorcelain
     set -euo pipefail
 
     # Build first
+    npm i
     just _browser_assets_build ./v$(cat package.json | jq -r .version)
     just _browser_assets_build
 
