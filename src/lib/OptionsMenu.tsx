@@ -1,5 +1,5 @@
 import React, { useEffect, useState, useCallback } from "react";
-import { useHashParamJson } from "@metapages/metaframe-hook";
+import { useHashParamJson } from "@metapages/hash-query";
 import {
   Box,
   Drawer,

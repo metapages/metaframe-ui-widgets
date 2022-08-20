@@ -265,6 +265,7 @@ _githubpages_publish: _ensureGitPorcelain
             -e HISTFILE=$WORKSPACE/.tmp/.bash_history \
             -e WORKSPACE=$WORKSPACE \
             -v {{ROOT}}:$WORKSPACE \
+            -v {{PACKAGE_NAME_SHORT}}_node_modules:$WORKSPACE/node_modules \
             $(if [ -d $HOME/.gitconfig ]; then echo "-v $HOME/.gitconfig:/root/.gitconfig"; else echo ""; fi) \
             $(if [ -d $HOME/.ssh ]; then echo "-v $HOME/.ssh:/root/.ssh"; else echo ""; fi) \
             -p {{APP_PORT}}:{{APP_PORT}} \

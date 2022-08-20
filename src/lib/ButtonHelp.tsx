@@ -7,7 +7,7 @@ import {
   IconButton,
   DrawerCloseButton,
 } from "@chakra-ui/react";
-import { isIframe } from "@metapages/metaframe-hook";
+import { isIframe } from "@metapages/hash-query";
 import { QuestionIcon } from "@chakra-ui/icons";
 
 export const ButtonHelp: React.FC<{ url?: string }> = ({ url }) => {
